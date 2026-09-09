@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Esta página no existe — Yovito</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23DD6420'/%3E%3Cpath d='M14 18l10 16 10-16' stroke='%23FDF6EE' stroke-width='7' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='45' cy='40' r='7.5' fill='none' stroke='%23FDF6EE' stroke-width='7'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Nunito+Sans:wght@400;600&display=swap">
+<style>
+  :root{
+    --paper:#FDF6EE;--ink:#23272E;--ink-2:#575F69;--mandarin:#DD6420;--line:#E7D9C9;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){--paper:#171512;--ink:#F3EBE1;--ink-2:#C0B6AA;--mandarin:#F2965B;--line:#332C25}
+  }
+  :root[data-theme="dark"]{--paper:#171512;--ink:#F3EBE1;--ink-2:#C0B6AA;--mandarin:#F2965B;--line:#332C25}
+  *{box-sizing:border-box}
+  body{
+    margin:0;min-height:100vh;background:var(--paper);color:var(--ink);
+    font-family:"Nunito Sans","Segoe UI",Helvetica,Arial,sans-serif;
+    display:grid;place-items:center;padding:32px;line-height:1.6;
+  }
+  .box{max-width:34rem;display:flex;flex-direction:column;gap:16px;text-align:center;align-items:center}
+  h1{font-family:"Baloo 2","Trebuchet MS",Verdana,sans-serif;font-size:clamp(1.8rem,5vw,2.6rem);margin:0;font-weight:700;line-height:1.1}
+  p{margin:0;color:var(--ink-2)}
+  a.btn{
+    font-family:"Baloo 2","Trebuchet MS",Verdana,sans-serif;font-weight:600;background:var(--mandarin);
+    color:#FFF8F1;text-decoration:none;padding:12px 22px;border-radius:11px;margin-top:6px;
+  }
+  a.btn:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+</style>
+</head>
+<body>
+  <div class="box">
+    <h1>Aquí no hay nada… todavía</h1>
+    <p>Esta página no existe, o la movimos de sitio. Pasa: esto lo hacemos los sábados y a veces se nos va algo.</p>
+    <a class="btn" href="/">Volver al inicio</a>
+  </div>
+</body>
+</html>
